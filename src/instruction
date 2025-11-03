@@ -1,0 +1,29 @@
+Termin: 13 listopada 2025 23:59
+Instrukcje
+Napisz program Kalkulator w języku Java, wykorzystując metody statyczne do wykonywania działań matematycznych. Program powinien:
+
+dodawanie dowolnej liczby liczb (np. za pomocą varargs),
+
+odejmowanie dwóch i więcej liczb (np. najpierw od pierwszej odejmujemy każdą kolejną podaną liczbę),
+
+mnożenie kilku liczb (również za pomocą varargs),
+
+dzielenie (obsługa dzielenia przez zero – komunikat o błędzie oraz możliwość zwracania wartości domyślnej np. 0.0 przy braku argumentów),
+
+potęgowanie (różne wersje metody, np. jedna przyjmuje dwa argumenty, druga — tylko jedną liczbę z domyślnym wykładnikiem 2),
+
+obliczanie średniej arytmetycznej z dowolnej liczby argumentów (varargs),
+
+możliwość zaimplementowania funkcji matematycznych z klasy Math (np. pierwiastek, wartość bezwzględna, sinus, cosinus itd.).
+
+inne podobne
+
+zawierać metody z domyślnymi wartościami parametrów (np. gdy użytkownik nie poda jednego z argumentów),
+
+wykorzystywać metody z parametrem o zmiennej liczbie argumentów (varargs),
+
+demonstrować zastosowanie przeciążania metod,
+
+być napisany w sposób czytelny i zgodny ze standardami programowania obiektowego.
+
+Dodatkowo, program powinien w metodzie main prezentować przykładowe użycie wszystkich przygotowanych metod.
