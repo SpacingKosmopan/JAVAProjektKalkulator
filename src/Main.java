@@ -1,13 +1,20 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+import Calculator.Calculations;
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Dodawanie: " + Calculations.add(3, 5, 1));
+        System.out.println("Odejmowanie: " + Calculations.subtract(3, 5, 1));
+        System.out.println("Mnożenie: " + Calculations.multiply(3, 5, 1));
+        System.out.println("Dzielenie: " + Calculations.divide(3, 0, 3));
+        System.out.println("Potęgowanie z dwoma argumentami: " + Calculations.expon(2, 3));
+        System.out.println("Potęgowanie z jednym argumentem: " + Calculations.expon(2));
+        System.out.println("Średnia: " + Calculations.average(3, 4, 5));
+        System.out.println("Pierwiastek kwadratowy: " + Calculations.square_root(16));
+        System.out.println("Wartość bezwzględna: " + Calculations.absolute(-10));
+        System.out.println("Sinus z radianów: " + Calculations.r_sinus((float) Math.PI / 6));
+        System.out.println("Sinus z kąta: " + Calculations.r_sinus(30));
+        System.out.println("Cosinus z radianów: " + Calculations.a_cosinus((float) Math.PI / 3));
+        System.out.println("Cosinus z kąta: " + Calculations.a_cosinus(120));
     }
 }
